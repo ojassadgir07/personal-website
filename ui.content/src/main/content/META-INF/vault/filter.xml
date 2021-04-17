@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/personalsite" mode="merge"/>
+    <filter root="/content/personalsite" mode="merge"/>
+    <filter root="/content/dam/personalsite/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/personalsite" mode="merge"/>
+</workspaceFilter>
