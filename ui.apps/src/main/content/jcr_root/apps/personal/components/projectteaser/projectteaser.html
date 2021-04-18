@@ -1,0 +1,43 @@
+<section data-sly-test="${properties.teaser == 'project'}" class="portfolio-area section-gap" id="portfolio">
+     <div class="container">
+        <div class="filters-content">
+                        <div class="row grid">
+                            <div class="single-portfolio col-sm-4 all vector">
+                            	<div class="relative">
+	                            	<div class="thumb">
+	                            		<div class="overlay overlay-bg"></div>
+	                            		 <img class="image img-fluid" src="${properties.fileReference}" alt="">
+	                            	</div>
+									<a href="${properties.fileReference}" class="img-pop-up">	
+									  <div class="middle">
+									    <div class="text align-self-center d-flex"><img src="/content/dam/personal/preview.png" alt=""></div>
+									  </div>
+								</a>                              		
+                            	</div>
+								<div class="p-inner">
+								    <h4>${properties.title}</h4>
+									<div class="cat">${properties.description}</div>
+								</div>					                               
+                            </div>
+                         </div>
+		</div> 
+	</div>
+</section>    
+
+<section data-sly-test="${properties.teaser == 'blog'}" class="recent-blog-area section-gap">
+				<div class="container">
+					<div class="row">	
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="${properties.fileReference}" alt="">	
+							</div>							
+							<a href="#">
+								<h4>${properties.title}</h4>
+							</a>
+							<p>
+								${properties.description}
+							</p>
+						</div>
+                    </div>
+                 </div>
+</section>                 
