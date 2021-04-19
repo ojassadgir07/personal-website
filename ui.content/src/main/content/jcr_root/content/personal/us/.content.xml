@@ -7,5 +7,4 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="us"
         sling:resourceType="foundation/components/redirect"/>
-    <en/>
 </jcr:root>
