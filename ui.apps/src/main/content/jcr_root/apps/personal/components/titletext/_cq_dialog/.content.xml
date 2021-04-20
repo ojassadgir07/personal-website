@@ -188,6 +188,12 @@
                                                     </cui>
                                                 </uiSettings>
                                             </description>
+                                            <pb
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                name="./pb"
+                                                text="Padding Bottom"
+                                                value="true"/>
                                         </items>
                                     </column>
                                 </items>

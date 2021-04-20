@@ -1,0 +1,37 @@
+<sly data-sly-use.model="com.personal.core.models.TestimonialModel"></sly>
+<!-- Start testimonial Area -->
+		    <section class="testimonial-area">
+				<sly data-sly-resource="${'title' @ resourceType='/apps/personal/components/titletext'}"></sly>	    	
+                  <div class="container pb-120">
+		            <div class="row">
+                        <div class="active-testimonial" data-sly-list.obj="${model.testimoniallist}">
+
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
+		                        </div>
+		                        <div class="desc">
+		                            <p>
+		                                Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.		     
+		                            </p>
+									<h4>${obj.author}</h4>
+		                            <p>${obj.designation}</p>
+		                        </div>
+		                    </div>
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
+		                        </div>
+		                        <div class="desc">
+		                            <p>
+		                                A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.
+		                            </p>
+		                            <h4>Carolyn Craig</h4>
+		                            <p>CEO at Facebook</p>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+		    <!-- End testimonial Area -->
